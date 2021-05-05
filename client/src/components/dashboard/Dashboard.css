@@ -1,0 +1,17 @@
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    
+  }
+  .flex-container > div {
+    align-content: space-between;
+  }
+  table.stockframe{
+    padding: 50px;
+    align-self: center;
+  }
+  table > tr{
+    padding: 30px;
+    align-self: center;
+  }
