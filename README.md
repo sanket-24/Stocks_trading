@@ -11,3 +11,8 @@ nodemon index.js<br>
 cd ../client<br>
 npm install<br>
 npm start<br>
+
+# to add stock view of a stock at home page
+Goto Home.js<br>
+insert stockcard components with Yahoo Finance stock name ID<br>
+            
