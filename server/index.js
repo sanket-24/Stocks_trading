@@ -21,7 +21,7 @@ app.set('views', path.join(__dirname, './views'));
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
-const CONNECTION_URL = 'mongodb+srv://sanket_patil:teknas@3509@cluster0.tk7zo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+const CONNECTION_URL = 'mongodb+srv://YOUR_MONGODB_ACCOUNT_USERNAME:YOUR_PASSWORD@cluster0.tk7zo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 
 
 // MongoDB connect
