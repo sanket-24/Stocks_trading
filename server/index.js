@@ -21,6 +21,7 @@ app.set('views', path.join(__dirname, './views'));
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
+//You can directly copy paste URL of your cluster here to get connected with your cluster, format of an URL of a cluster looks like this.
 const CONNECTION_URL = 'mongodb+srv://YOUR_MONGODB_ACCOUNT_USERNAME:YOUR_PASSWORD@cluster0.tk7zo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 
 
